@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i,n;
+	
+	printf("enter the limit:");
+	scanf("%d",&n);
+	printf("\nthe odd number are:\n\n");
+	for(i=1;i<=n;i=i+2)
+	printf("%d\t",i);
+	getch();
+}
